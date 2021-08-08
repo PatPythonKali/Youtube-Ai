@@ -3,13 +3,13 @@ import pytchat
 import json
 
 # Internal Libraries
-from URL.francis_leo_marcos_updates import channel_name, francis_leo_marcos_updates
+from URL.francis_leo_marcos_updates import channel_name, francis_leo_marcos_updates_url
 
 # Target Input
-video_id = channel_name
+video_id = francis_leo_marcos_updates_url
 
 # Create, Save and Overwrite Text File
-with open('Harvest/FLM' +
+with open('/home/ubuntu/PycharmProjects/Youtube-Ai/Harvest/FLM/' +
           channel_name.replace(" ", "") + ".JSON", 'w', encoding='utf-8') as write_file:
 
 
