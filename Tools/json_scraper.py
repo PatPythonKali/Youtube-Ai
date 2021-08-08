@@ -3,10 +3,10 @@ import pytchat
 import json
 
 # Internal Libraries
-from Channel_URL.Ka_Tropang_TKWV_channel import channel_name, tkwv_url
+from URL.francis_leo_marcos_updates import channel_name, francis_leo_marcos_updates
 
 # Target Input
-video_id = tkwv_url
+video_id = channel_name
 
 # Create, Save and Overwrite Text File
 with open('Harvest/FLM/' +
