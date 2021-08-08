@@ -1,5 +1,5 @@
 channel_name = "FRANCIS LEO MARCOS UPDATES"
-francis_leo_marcos_updates=[
+francis_leo_marcos_updates_url=[
 "zV7lK5ce4dA",
 "FUB_-VZ0miE",
 "qTCu6hqGZXA",

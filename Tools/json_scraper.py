@@ -9,7 +9,7 @@ from URL.francis_leo_marcos_updates import channel_name, francis_leo_marcos_upda
 video_id = channel_name
 
 # Create, Save and Overwrite Text File
-with open('Harvest/FLM/' +
+with open('Harvest/FLM' +
           channel_name.replace(" ", "") + ".JSON", 'w', encoding='utf-8') as write_file:
 
 
