@@ -13,7 +13,7 @@ qar_superchatters = 0
 sgd_superchatters = 0
 
 # with open('/home/ubuntu/Documents/youtube_ai_json/master.json') as json_file:
-with open('/home/ubuntu/Documents/JSON/FLM JSON PROCESSED/FLMMAYAMANCHALLENGE20.JSON') as json_file:
+with open('/home/ubuntu/Documents/JSON/FLM JSON PROCESSED/FRANCISLEOMARCOSUPDATES.JSON') as json_file:
     obj = json_file.read()
     obj2 = json.loads(obj)
 
@@ -90,7 +90,7 @@ with open('/home/ubuntu/Documents/JSON/FLM JSON PROCESSED/FLMMAYAMANCHALLENGE20.
                 gross_profit_total += amount_sgd
                 gross_profit_total = round(gross_profit_total, 2)
                 sgd_superchatters += 1
-                #print(f"{sgd_superchatters} SuperChats from Singapore!")
+                # print(f"{sgd_superchatters} SuperChats from Singapore!")
                 print(f"{currency_amount} is P{gross_profit_total} | {author_name} | "
                       f"{sgd_superchatters} from Singapore | {superchat_type}")
                 print("Grand Total: ₱", round(gross_profit_total, 2))
