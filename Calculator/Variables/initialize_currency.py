@@ -16,4 +16,4 @@ super_sticker_counter = 0
 
 # Chat Sponsor Counter
 chat_sponsor_counter = 0
-chat_chat_moderator = 0
+chat_chat_moderator_counter = 0

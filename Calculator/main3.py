@@ -18,14 +18,15 @@ for x in load_json():
     date_time = x['datetime']
 
     chat_sponsor = x['author']['isChatSponsor']
-    chat_moderator = x['isChatModerator']
+    chat_moderator = x['author']['isChatModerator']
 
     channel_owner = x['author']['channelOwner']
     channel_url = x['author']['channelUrl']
 
-    if chat_sponsor:
-        chat_sponsor_counter += 1
-        print(author_name)
+    print(author_name)
+    # if chat_moderator:
+    #     chat_chat_moderator_counter += 1
+
 
         # if superchat_type == "superChat":
         #     super_chat_counter += 1
