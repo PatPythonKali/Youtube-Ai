@@ -26,6 +26,15 @@ for x in load_json():
     channel_url = x['author']['channelUrl']
 
     if amount != 0:
+        if currency == "USD":
+            usd = c.get_rate('usd', 'PHP')
+            amount_usd = usd * amount
+            gross_profit_total += amount_usd
+            usd_superchatters += 1
+            print(f"{usd_superchatters} SuperChats from USA!")
+            print("Grand Total: ₱", round(gross_profit_total, 2))
+
+
 
 
 end = time.time()
