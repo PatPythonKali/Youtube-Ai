@@ -1,11 +1,9 @@
-from forex_python.converter import CurrencyRates
 import time
 start = time.time()
 
 from Variables.initialize_currency import *
 from Variables.load_json import load_json
 
-c = CurrencyRates()
 
 for x in load_json():
 
@@ -26,6 +24,7 @@ for x in load_json():
     channel_url = x['author']['channelUrl']
 
     if amount != 0:
+        pass
         # if currency == "₱":
         #     x = round(amount)
         #     gross_profit_total += x
