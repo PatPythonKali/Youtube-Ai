@@ -139,3 +139,6 @@ flm_mayaman_challenge_20_url=[
 "ZU4z3-b67hc",
 "yF79BHGegrg",
 "iO9gUE-EiwY",]
+
+# Remove Duplicates (Ensures that no duplicates will be on the list)
+flm_mayaman_challenge_20_url = list(dict.fromkeys(flm_mayaman_challenge_20_url))

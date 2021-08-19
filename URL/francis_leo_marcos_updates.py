@@ -21,4 +21,7 @@ francis_leo_marcos_updates_url=[
 "N9WqF_2YXGE",
 "WQ54jhSJ0DU",
 "TUSjx4XlVzU",
-"Ny6d2xmTaDs"]
+"Ny6d2xmTaDs",]
+
+# Remove Duplicates (Ensures that no duplicates will be on the list)
+francis_leo_marcos_updates_url = list(dict.fromkeys(francis_leo_marcos_updates_url))

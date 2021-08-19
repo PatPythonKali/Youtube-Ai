@@ -53,3 +53,6 @@ francis_leo_marcos_after_dark_url=[
 "7PjX0C6SvKM",
 "OzIOwRlbxt4",
 "0-GTLWEy7Jg"]
+
+# Remove Duplicates (Ensures that no duplicates will be on the list)
+francis_leo_marcos_after_dark_url = list(dict.fromkeys(francis_leo_marcos_after_dark_url))

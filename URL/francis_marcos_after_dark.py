@@ -24,3 +24,6 @@ francis_leo_marcos_after_dark_url=[
 "QRN0unATdJ8",
 "Bp30DUaFuB8",
 "SfYJQFPdrvc"]
+
+# Remove Duplicates (Ensures that no duplicates will be on the list)
+francis_leo_marcos_after_dark_url = list(dict.fromkeys(francis_leo_marcos_after_dark_url))

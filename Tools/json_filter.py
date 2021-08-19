@@ -25,7 +25,7 @@ with open('/home/ubuntu/Dropbox/Python Projects/JSON/JSON Backup/master-aug-3.js
 
         def word_search(word):
             if word in yt_message:
-                print(f"{yt_channel_owner} | {datetime_object}")
+                print(f"{yt_channel_owner} | {datetime_object.sort()}")
                 print(f"{yt_author_name}: {yt_message} \n")
 
         def word_search_author(word):
