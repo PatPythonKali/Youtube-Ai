@@ -1,5 +1,9 @@
+# Global Imports
+import time
+start = time.time()
 import json
 import datetime
+import os
 
 string_date = "2021-07-09 23:35:22"
 format = "%Y-%m-%d %H:%M:%S"
@@ -62,7 +66,7 @@ with open('/home/ubuntu/Dropbox/Python Projects/JSON/JSON Backup/master-aug-3.js
         # word_search("credibility")
         # url_search("-xx x")
 
-
-
-
         # word_count_author("The real I am Cehl")
+
+end = time.time()
+print(f"Execution Time: {round(end - start, 2)}")
