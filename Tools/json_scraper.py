@@ -4,7 +4,7 @@ import json
 
 
 # Internal Libraries
-from URL.francis_leo_marcos_updates import channel_name, francis_leo_marcos_updates_url
+from URL.francis_leo_marcos_updates import *
 
 # Target Input
 video_id = francis_leo_marcos_updates_url
