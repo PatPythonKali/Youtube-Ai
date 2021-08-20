@@ -30,12 +30,11 @@ with open(os.path.abspath(f"../Harvest/FLM/") +
                 obj2 = json.loads(obj)
 
                 date_time = obj2['datetime']
-                author_name = obj2['author']['name']
 
                 # Output to File Regular
                 json.dump(obj2, write_file, indent=4)
 
-        print(f"{date_time} | {author_name}")
+        print(date_time)
 
 end = time.time()
 print(f"Total Execution Time: {round(end - start, 2)}")
