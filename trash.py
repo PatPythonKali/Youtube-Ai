@@ -1,5 +1,6 @@
-import sys
-x = "Hello"
-# sys.modules[__name__] is the instance of the current module
-var = getattr(sys.modules, 'var_name')
+result = 80
+if result >= 60:
+    result = str(result / 60)
+    result = result[:4] + " Minutes"
 
+print(f"Total Execution Time: {result}")

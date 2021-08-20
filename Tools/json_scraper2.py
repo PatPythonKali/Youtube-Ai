@@ -37,4 +37,9 @@ with open(os.path.abspath(f"../Harvest/FLM/") +
         print(date_time)
 
 end = time.time()
-print(f"Total Execution Time: {round(end - start, 2)}")
+result = end - start
+if result >= 60:
+    result = str(result / 60)
+    result = result[:4] + " Minutes"
+
+print(f"Total Execution Time: {result}")
