@@ -4,7 +4,6 @@ start = time.time()
 from Variables.initialize_currency import *
 from Variables.load_json import load_json
 
-
 for x in load_json():
 
     amount = (x["amountValue"])

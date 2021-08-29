@@ -1,11 +1,15 @@
+# Global Imports
+import time
+start = time.time()
 import json
 import datetime
+import os
 
 string_date = "2021-07-09 23:35:22"
 format = "%Y-%m-%d %H:%M:%S"
 
 # with open('/home/ubuntu/Documents/youtube_ai_json/master.json') as json_file:
-with open('/home/ubuntu/pCloudDrive/FLM JSON PROCESSED V2 BACKUP/FLM_MASTER.JSON') as json_file:
+with open('/home/ubuntu/Dropbox/Python Projects/JSON/JSON Backup/master-aug-3.json') as json_file:
     obj = json_file.read()
     obj2 = json.loads(obj)
 
@@ -25,7 +29,7 @@ with open('/home/ubuntu/pCloudDrive/FLM JSON PROCESSED V2 BACKUP/FLM_MASTER.JSON
 
         def word_search(word):
             if word in yt_message:
-                print(f"{yt_channel_owner} | {datetime_object}")
+                print(f"{yt_channel_owner} | {datetime_object.sort()}")
                 print(f"{yt_author_name}: {yt_message} \n")
 
         def word_search_author(word):
@@ -54,15 +58,15 @@ with open('/home/ubuntu/pCloudDrive/FLM JSON PROCESSED V2 BACKUP/FLM_MASTER.JSON
                 print(f"{yt_author_name}: {yt_message} \n")
 
         # Author: Message
-        # author_message("")
+        # author_message("Dark Cupcake Chocolate")
 
-        # word_search_author("flm")
-        # author_search("prinsipyo")
+        # word_search_author("ka….")
+        author_search("Chismosang Dilis")
 
-        word_search("torerong malupet")
+        # word_search("credibility")
         # url_search("-xx x")
 
-
-
-
         # word_count_author("The real I am Cehl")
+
+end = time.time()
+print(f"Execution Time: {round(end - start, 2)}")
