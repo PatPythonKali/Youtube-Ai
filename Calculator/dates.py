@@ -28,7 +28,7 @@ for x in load_json():
         # if date_time:
         #     print(date_time)
 
-        if date_time < "20210501":
+        if date_time > "20210501":
             print(f"{date_time} | {channel_owner}")
 
         # if date_time > "20210430" and date_time < "20210516":

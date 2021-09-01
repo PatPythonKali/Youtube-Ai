@@ -1,5 +1,22 @@
 channel_name = "FRANCIS LEO MARCOS UPDATES"
 francis_leo_marcos_updates_url=[
+
+"VWwcB8FjQME",
+"xYOsjCN-568",
+"n31INRlTVRc",
+"GX2whmRIHoE",
+"vVg6B91k4sU",
+"f2pgJFt-IpE",
+"CbqjE0sSR_s",
+"E52UDRfVBpQ",
+"TqyzrR4Pkb0",
+"BHp5Jw4icvA",
+"K0uXRVH8g0I",
+"COUeLcsXP0E",
+"MeziunwNP9I",
+
+# August 18, 2021
+
 "COUeLcsXP0E",
 "MeziunwNP9I",
 "YHlBpyP5aqc",
