@@ -24,7 +24,7 @@ for x in load_json():
 
     new_date_time = date_time[0:10].replace("-", "")
 
-    if amount != 0 and new_date_time == "20210828":
+    if amount != 0 and new_date_time >= "20210901":
 
 
         if currency == "₱":

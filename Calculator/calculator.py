@@ -24,7 +24,7 @@ for x in load_json():
 
     new_date_time = date_time[0:10].replace("-", "")
 
-    if amount != 0 and new_date_time == "20210822":
+    if amount != 0 and new_date_time == "20210930":
 
         if currency == "₱":
             x = round(amount)
@@ -187,12 +187,12 @@ for x in load_json():
 
             # print(f"{x} | {round(gross_profit_total, 2)} | {super_chat_counter}")
 
-        print(f"{author_name} : P{round(x, 2)} - {date_time}")
+        print(f"{author_name} : P{x} - {date_time}")
 
-print(f"Gross Total Profit : {round(gross_profit_total,2)} ")
+print(f"Gross Total Profit : {round(gross_profit_total, 2)} | {super_chat_counter}")
 
 
 
 end = time.time()
 result = round(end - start, 2)
-print(f"Runtime of the program is {result}")
+print(f"Runtime of the program is {result} ")

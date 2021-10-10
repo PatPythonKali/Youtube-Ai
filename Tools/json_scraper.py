@@ -6,13 +6,13 @@ import json
 import os
 
 # Internal Libraries
-from URL.francis_leo_marcos_after_dark import *
+from URL.skl_vlog import *
 
 # Target Input
-video_id = francis_marcos_after_dark_url
+video_id = skl_vlog_url
 
 # Create, Save and Overwrite Text File
-with open(os.path.abspath(f"../Harvest/FLM/") +
+with open(os.path.abspath(f"../Harvest/FLM") +
           channel_name.replace(" ", "") + ".JSON", 'w', encoding='utf-8') as write_file:
 
     # Loop between Video ID's
